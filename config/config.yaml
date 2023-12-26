@@ -1,0 +1,38 @@
+# general
+seed: 42
+workers: 4
+dataparallel: 1
+dataset_path: "/home/lijunjian/data/Kather_Multi_Class/NCT-CRC-HE-100K/"
+
+# train options
+batch_size: 1792
+image_size: 224
+start_epoch: 0
+epochs: 100
+dataset: "NCT"
+
+# model options
+epsilon: 1
+resnet: "ResNet18"
+feature_dim: 128
+
+model_path: ""
+
+reload: False
+do_adv: True
+
+# loss options
+learning_rate: 0.0006
+weight_decay: 0.0001
+instance_temperature: 0.2
+
+ca-t: 0.2
+Lambda: 0.1
+clusters: 10
+k-eigen: 100
+num-iters: 10
+use-kmeans: True
+do_ca: True
+do_entro: False
+
+cos: 1

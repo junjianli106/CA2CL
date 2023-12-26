@@ -1,0 +1,317 @@
+nohup: ignoring input
+12/21/2023 00:14:48 - INFO - __main__ - 设置 seed 为:  4
+12/21/2023 00:14:48 - INFO - __main__ - Start fine-turning...
+12/21/2023 00:14:52 - INFO - __main__ - ==========Epoch:0==========
+=> loading checkpoint '/home/lijunjian/CA2CL/save/NCT/pretrain/resnet18/ResNet18_bs_1792_img_size_224_lr_0.0006_wd_0.0001_temperature_0.2_adv_eps_1_cld_0.1/checkpoint_100.tar'
+missing keys:[], unexpected_keys:['module.instance_projector.0.weight', 'module.instance_projector.0.bias', 'module.instance_projector.2.weight', 'module.instance_projector.2.bias', 'module.groupDis.0.weight']
+loaded
+12/21/2023 00:19:02 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:19:03 - INFO - utils.common - F1score = 0.9200826538188804
+12/21/2023 00:19:03 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:19:03 - INFO - utils.common - acc = 0.9209875
+12/21/2023 00:19:03 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:19:03 - INFO - utils.common - precision = 0.9222579118466587
+12/21/2023 00:19:03 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:19:03 - INFO - utils.common - result = {'f1score': 0.9200826538188804, 'acc': 0.9209875, 'precision': 0.9222579118466587, 'recall': 0.9191687002506951}
+12/21/2023 00:19:03 - INFO - __main__ - Epoch:0, Train Accuracy:0.9209875, f1:0.9200826538188804
+
+Epoch: [0][0/625]	
+Epoch: [0][100/625]	
+Epoch: [0][200/625]	
+Epoch: [0][300/625]	
+Epoch: [0][400/625]	
+Epoch: [0][500/625]	
+Epoch: [0][600/625]	
+12/21/2023 00:19:20 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:19:20 - INFO - utils.common - F1score = 0.9812389845775168
+12/21/2023 00:19:20 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:19:20 - INFO - utils.common - acc = 0.98125
+12/21/2023 00:19:20 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:19:20 - INFO - utils.common - precision = 0.9816092137493135
+12/21/2023 00:19:20 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:19:20 - INFO - utils.common - result = {'f1score': 0.9812389845775168, 'acc': 0.98125, 'precision': 0.9816092137493135, 'recall': 0.9808971490584002}
+12/21/2023 00:19:20 - INFO - __main__ - Epoch:0, Val Accuracy:0.98125, f1:0.9812389845775168
+
+12/21/2023 00:19:20 - INFO - __main__ - lr:0.00027135636881635457
+12/21/2023 00:19:20 - INFO - __main__ - ==========Epoch:1==========
+Save best weights
+12/21/2023 00:23:28 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:23:28 - INFO - utils.common - F1score = 0.9735202090185074
+12/21/2023 00:23:28 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:23:29 - INFO - utils.common - acc = 0.9738125
+12/21/2023 00:23:29 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:23:29 - INFO - utils.common - precision = 0.9736758402789012
+12/21/2023 00:23:29 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:23:29 - INFO - utils.common - result = {'f1score': 0.9735202090185074, 'acc': 0.9738125, 'precision': 0.9736758402789012, 'recall': 0.9733966209313757}
+12/21/2023 00:23:29 - INFO - __main__ - Epoch:1, Train Accuracy:0.9738125, f1:0.9735202090185074
+
+Epoch: [1][0/625]	
+Epoch: [1][100/625]	
+Epoch: [1][200/625]	
+Epoch: [1][300/625]	
+Epoch: [1][400/625]	
+Epoch: [1][500/625]	
+Epoch: [1][600/625]	
+12/21/2023 00:23:46 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:23:46 - INFO - utils.common - F1score = 0.985530666897581
+12/21/2023 00:23:46 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:23:46 - INFO - utils.common - acc = 0.98565
+12/21/2023 00:23:46 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:23:46 - INFO - utils.common - precision = 0.9855628683530158
+12/21/2023 00:23:46 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:23:46 - INFO - utils.common - result = {'f1score': 0.985530666897581, 'acc': 0.98565, 'precision': 0.9855628683530158, 'recall': 0.9855056343766658}
+12/21/2023 00:23:46 - INFO - __main__ - Epoch:1, Val Accuracy:0.98565, f1:0.985530666897581
+
+12/21/2023 00:23:46 - INFO - __main__ - lr:0.0001963663688163546
+12/21/2023 00:23:46 - INFO - __main__ - ==========Epoch:2==========
+Save best weights
+12/21/2023 00:27:56 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:27:56 - INFO - utils.common - F1score = 0.9768168423803498
+12/21/2023 00:27:56 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:27:56 - INFO - utils.common - acc = 0.976975
+12/21/2023 00:27:56 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:27:56 - INFO - utils.common - precision = 0.9769708903105436
+12/21/2023 00:27:56 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:27:56 - INFO - utils.common - result = {'f1score': 0.9768168423803498, 'acc': 0.976975, 'precision': 0.9769708903105436, 'recall': 0.9766844833905177}
+12/21/2023 00:27:56 - INFO - __main__ - Epoch:2, Train Accuracy:0.976975, f1:0.9768168423803498
+
+Epoch: [2][0/625]	
+Epoch: [2][100/625]	
+Epoch: [2][200/625]	
+Epoch: [2][300/625]	
+Epoch: [2][400/625]	
+Epoch: [2][500/625]	
+Epoch: [2][600/625]	
+12/21/2023 00:28:14 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:28:14 - INFO - utils.common - F1score = 0.9864633566839687
+12/21/2023 00:28:14 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:28:14 - INFO - utils.common - acc = 0.98655
+12/21/2023 00:28:14 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:28:14 - INFO - utils.common - precision = 0.9865837687881351
+12/21/2023 00:28:14 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:28:14 - INFO - utils.common - result = {'f1score': 0.9864633566839687, 'acc': 0.98655, 'precision': 0.9865837687881351, 'recall': 0.986357312207539}
+12/21/2023 00:28:14 - INFO - __main__ - Epoch:2, Val Accuracy:0.98655, f1:0.9864633566839687
+
+12/21/2023 00:28:14 - INFO - __main__ - lr:0.0001036736311836454
+12/21/2023 00:28:14 - INFO - __main__ - ==========Epoch:3==========
+Save best weights
+12/21/2023 00:32:24 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:32:24 - INFO - utils.common - F1score = 0.9780362713083903
+12/21/2023 00:32:24 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:32:24 - INFO - utils.common - acc = 0.978275
+12/21/2023 00:32:24 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:32:24 - INFO - utils.common - precision = 0.9780916670347701
+12/21/2023 00:32:24 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:32:25 - INFO - utils.common - result = {'f1score': 0.9780362713083903, 'acc': 0.978275, 'precision': 0.9780916670347701, 'recall': 0.977994087930613}
+12/21/2023 00:32:25 - INFO - __main__ - Epoch:3, Train Accuracy:0.978275, f1:0.9780362713083903
+
+Epoch: [3][0/625]	
+Epoch: [3][100/625]	
+Epoch: [3][200/625]	
+Epoch: [3][300/625]	
+Epoch: [3][400/625]	
+Epoch: [3][500/625]	
+Epoch: [3][600/625]	
+12/21/2023 00:32:40 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:32:41 - INFO - utils.common - F1score = 0.9864624474057373
+12/21/2023 00:32:41 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:32:41 - INFO - utils.common - acc = 0.98655
+12/21/2023 00:32:41 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:32:41 - INFO - utils.common - precision = 0.9865992011327429
+12/21/2023 00:32:41 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:32:41 - INFO - utils.common - result = {'f1score': 0.9864624474057373, 'acc': 0.98655, 'precision': 0.9865992011327429, 'recall': 0.9863368476742439}
+12/21/2023 00:32:41 - INFO - __main__ - Epoch:3, Val Accuracy:0.98655, f1:0.9864624474057373
+
+12/21/2023 00:32:41 - INFO - __main__ - lr:2.8683631183645395e-05
+12/21/2023 00:32:41 - INFO - __main__ - ==========Epoch:4==========
+Save best weights
+12/21/2023 00:36:50 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:36:50 - INFO - utils.common - F1score = 0.9791729801392712
+12/21/2023 00:36:50 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:36:51 - INFO - utils.common - acc = 0.9793
+12/21/2023 00:36:51 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:36:51 - INFO - utils.common - precision = 0.979172632937098
+12/21/2023 00:36:51 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:36:51 - INFO - utils.common - result = {'f1score': 0.9791729801392712, 'acc': 0.9793, 'precision': 0.979172632937098, 'recall': 0.9791872110888227}
+12/21/2023 00:36:51 - INFO - __main__ - Epoch:4, Train Accuracy:0.9793, f1:0.9791729801392712
+
+Epoch: [4][0/625]	
+Epoch: [4][100/625]	
+Epoch: [4][200/625]	
+Epoch: [4][300/625]	
+Epoch: [4][400/625]	
+Epoch: [4][500/625]	
+Epoch: [4][600/625]	
+12/21/2023 00:37:07 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:37:07 - INFO - utils.common - F1score = 0.9872878205073479
+12/21/2023 00:37:07 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:37:07 - INFO - utils.common - acc = 0.9874
+12/21/2023 00:37:07 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:37:07 - INFO - utils.common - precision = 0.9873497120612821
+12/21/2023 00:37:07 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:37:07 - INFO - utils.common - result = {'f1score': 0.9872878205073479, 'acc': 0.9874, 'precision': 0.9873497120612821, 'recall': 0.9872562532374387}
+12/21/2023 00:37:07 - INFO - __main__ - Epoch:4, Val Accuracy:0.9874, f1:0.9872878205073479
+
+12/21/2023 00:37:07 - INFO - __main__ - lr:0.0003
+12/21/2023 00:37:07 - INFO - __main__ - ==========Epoch:5==========
+Save best weights
+12/21/2023 00:41:16 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:41:16 - INFO - utils.common - F1score = 0.9797035834067458
+12/21/2023 00:41:16 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:41:16 - INFO - utils.common - acc = 0.97985
+12/21/2023 00:41:16 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:41:16 - INFO - utils.common - precision = 0.9797461553266119
+12/21/2023 00:41:16 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:41:16 - INFO - utils.common - result = {'f1score': 0.9797035834067458, 'acc': 0.97985, 'precision': 0.9797461553266119, 'recall': 0.9796712303932072}
+12/21/2023 00:41:16 - INFO - __main__ - Epoch:5, Train Accuracy:0.97985, f1:0.9797035834067458
+
+Epoch: [5][0/625]	
+Epoch: [5][100/625]	
+Epoch: [5][200/625]	
+Epoch: [5][300/625]	
+Epoch: [5][400/625]	
+Epoch: [5][500/625]	
+Epoch: [5][600/625]	
+12/21/2023 00:41:32 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:41:32 - INFO - utils.common - F1score = 0.9887140952508804
+12/21/2023 00:41:32 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:41:32 - INFO - utils.common - acc = 0.98875
+12/21/2023 00:41:32 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:41:33 - INFO - utils.common - precision = 0.9886436853408822
+12/21/2023 00:41:33 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:41:33 - INFO - utils.common - result = {'f1score': 0.9887140952508804, 'acc': 0.98875, 'precision': 0.9886436853408822, 'recall': 0.9887949817985167}
+12/21/2023 00:41:33 - INFO - __main__ - Epoch:5, Val Accuracy:0.98875, f1:0.9887140952508804
+
+12/21/2023 00:41:33 - INFO - __main__ - lr:0.00027135636881635457
+12/21/2023 00:41:33 - INFO - __main__ - ==========Epoch:6==========
+Save best weights
+12/21/2023 00:45:42 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:45:42 - INFO - utils.common - F1score = 0.9813777814955009
+12/21/2023 00:45:42 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:45:42 - INFO - utils.common - acc = 0.9814875
+12/21/2023 00:45:42 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:45:42 - INFO - utils.common - precision = 0.9815036502231135
+12/21/2023 00:45:42 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:45:43 - INFO - utils.common - result = {'f1score': 0.9813777814955009, 'acc': 0.9814875, 'precision': 0.9815036502231135, 'recall': 0.9812641313380072}
+12/21/2023 00:45:43 - INFO - __main__ - Epoch:6, Train Accuracy:0.9814875, f1:0.9813777814955009
+
+Epoch: [6][0/625]	
+Epoch: [6][100/625]	
+Epoch: [6][200/625]	
+Epoch: [6][300/625]	
+Epoch: [6][400/625]	
+Epoch: [6][500/625]	
+Epoch: [6][600/625]	
+12/21/2023 00:45:58 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:45:58 - INFO - utils.common - F1score = 0.9897714931042394
+12/21/2023 00:45:58 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:45:58 - INFO - utils.common - acc = 0.9898
+12/21/2023 00:45:58 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:45:58 - INFO - utils.common - precision = 0.9897717194718916
+12/21/2023 00:45:58 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:45:58 - INFO - utils.common - result = {'f1score': 0.9897714931042394, 'acc': 0.9898, 'precision': 0.9897717194718916, 'recall': 0.9897801921598768}
+12/21/2023 00:45:58 - INFO - __main__ - Epoch:6, Val Accuracy:0.9898, f1:0.9897714931042394
+
+12/21/2023 00:45:58 - INFO - __main__ - lr:0.0001963663688163546
+12/21/2023 00:45:58 - INFO - __main__ - ==========Epoch:7==========
+Save best weights
+12/21/2023 00:50:06 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:50:07 - INFO - utils.common - F1score = 0.9815425154822418
+12/21/2023 00:50:07 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:50:07 - INFO - utils.common - acc = 0.9816375
+12/21/2023 00:50:07 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:50:07 - INFO - utils.common - precision = 0.981644630928185
+12/21/2023 00:50:07 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:50:07 - INFO - utils.common - result = {'f1score': 0.9815425154822418, 'acc': 0.9816375, 'precision': 0.981644630928185, 'recall': 0.981447561248756}
+12/21/2023 00:50:07 - INFO - __main__ - Epoch:7, Train Accuracy:0.9816375, f1:0.9815425154822418
+
+Epoch: [7][0/625]	
+Epoch: [7][100/625]	
+Epoch: [7][200/625]	
+Epoch: [7][300/625]	
+Epoch: [7][400/625]	
+Epoch: [7][500/625]	
+Epoch: [7][600/625]	
+12/21/2023 00:50:22 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:50:23 - INFO - utils.common - F1score = 0.989495666960263
+12/21/2023 00:50:23 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:50:23 - INFO - utils.common - acc = 0.98955
+12/21/2023 00:50:23 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:50:23 - INFO - utils.common - precision = 0.9894622427980644
+12/21/2023 00:50:23 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:50:23 - INFO - utils.common - result = {'f1score': 0.989495666960263, 'acc': 0.98955, 'precision': 0.9894622427980644, 'recall': 0.9895393945197279}
+12/21/2023 00:50:23 - INFO - __main__ - Epoch:7, Val Accuracy:0.98955, f1:0.989495666960263
+
+12/21/2023 00:50:23 - INFO - __main__ - lr:0.0001036736311836454
+12/21/2023 00:50:23 - INFO - __main__ - ==========Epoch:8==========
+early_st 4
+12/21/2023 00:54:32 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:54:32 - INFO - utils.common - F1score = 0.9823771018115026
+12/21/2023 00:54:32 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:54:32 - INFO - utils.common - acc = 0.9824375
+12/21/2023 00:54:32 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:54:32 - INFO - utils.common - precision = 0.9823503105177976
+12/21/2023 00:54:32 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:54:32 - INFO - utils.common - result = {'f1score': 0.9823771018115026, 'acc': 0.9824375, 'precision': 0.9823503105177976, 'recall': 0.9824102122687061}
+12/21/2023 00:54:32 - INFO - __main__ - Epoch:8, Train Accuracy:0.9824375, f1:0.9823771018115026
+
+Epoch: [8][0/625]	
+Epoch: [8][100/625]	
+Epoch: [8][200/625]	
+Epoch: [8][300/625]	
+Epoch: [8][400/625]	
+Epoch: [8][500/625]	
+Epoch: [8][600/625]	
+12/21/2023 00:54:49 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:54:49 - INFO - utils.common - F1score = 0.990080597686
+12/21/2023 00:54:49 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:54:49 - INFO - utils.common - acc = 0.99015
+12/21/2023 00:54:49 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:54:49 - INFO - utils.common - precision = 0.9900699384448277
+12/21/2023 00:54:49 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:54:49 - INFO - utils.common - result = {'f1score': 0.990080597686, 'acc': 0.99015, 'precision': 0.9900699384448277, 'recall': 0.9901043868968024}
+12/21/2023 00:54:49 - INFO - __main__ - Epoch:8, Val Accuracy:0.99015, f1:0.990080597686
+
+12/21/2023 00:54:49 - INFO - __main__ - lr:2.8683631183645395e-05
+12/21/2023 00:54:49 - INFO - __main__ - ==========Epoch:9==========
+Save best weights
+12/21/2023 00:56:56 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:56:56 - INFO - utils.common - F1score = 0.9834577508936141
+12/21/2023 00:56:56 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:56:56 - INFO - utils.common - acc = 0.9836125
+12/21/2023 00:56:56 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:56:56 - INFO - utils.common - precision = 0.9834859576434558
+12/21/2023 00:56:56 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:56:56 - INFO - utils.common - result = {'f1score': 0.9834577508936141, 'acc': 0.9836125, 'precision': 0.9834859576434558, 'recall': 0.9834370835769247}
+12/21/2023 00:56:56 - INFO - __main__ - Epoch:9, Train Accuracy:0.9836125, f1:0.9834577508936141
+
+Epoch: [9][0/625]	
+Epoch: [9][100/625]	
+Epoch: [9][200/625]	
+Epoch: [9][300/625]	
+Epoch: [9][400/625]	
+Epoch: [9][500/625]	
+Epoch: [9][600/625]	
+12/21/2023 00:57:08 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:57:08 - INFO - utils.common - F1score = 0.9899620821016746
+12/21/2023 00:57:08 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:57:08 - INFO - utils.common - acc = 0.99
+12/21/2023 00:57:08 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:57:08 - INFO - utils.common - precision = 0.989984161806544
+12/21/2023 00:57:08 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:57:08 - INFO - utils.common - result = {'f1score': 0.9899620821016746, 'acc': 0.99, 'precision': 0.989984161806544, 'recall': 0.9899475317670056}
+12/21/2023 00:57:08 - INFO - __main__ - Epoch:9, Val Accuracy:0.99, f1:0.9899620821016746
+
+12/21/2023 00:57:08 - INFO - __main__ - lr:0.0003
+early_st 4
+Test
+12/21/2023 00:57:13 - INFO - utils.common - 计算 f1 score ing...
+12/21/2023 00:57:13 - INFO - utils.common - F1score = 0.9576254537713713
+12/21/2023 00:57:13 - INFO - utils.common - 计算 accuracy ing...
+12/21/2023 00:57:13 - INFO - utils.common - acc = 0.9693593314763231
+12/21/2023 00:57:13 - INFO - utils.common - 计算 precision ing...
+12/21/2023 00:57:13 - INFO - utils.common - precision = 0.9600433621384469
+12/21/2023 00:57:13 - INFO - utils.common - 计算 recall ing...
+12/21/2023 00:57:13 - INFO - utils.common - result = {'f1score': 0.9576254537713713, 'acc': 0.9693593314763231, 'precision': 0.9600433621384469, 'recall': 0.9572190058188124}
+12/21/2023 00:57:13 - INFO - __main__ - test_f1:0.9576254537713713, test_acc:0.9693593314763231, test_precision:0.9600433621384469, test_recall:0.9572190058188124
+12/21/2023 00:57:13 - INFO - __main__ - Finish fine-turning...
