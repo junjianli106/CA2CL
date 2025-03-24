@@ -127,6 +127,19 @@ We follow the evaluation setting in MoCo when trasferring to object detection.
 put dataset under "benchmarks\detection\converted_weights" directory,
 5. run `run_ft.sh`  runs of fine-tuning and evaluation on GlaS dataset.
 
+## Reference 
+If this paper is helpful to you, you are also welcome to cite it. Thank you.
+```
+@article{li20252,
+  title={CA2CL: Cluster-Aware Adversarial Contrastive Learning for Pathological Image Analysis},
+  author={Li, Junjian and Kuang, Hulin and Liu, Jin and Yue, Hailin and Wang, Jianxin},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2025},
+  publisher={IEEE}
+}
+```
+'''
+
 ### License
 
 This project is under the CC-BY-NC 4.0 license. See [LICENSE](LICENSE) for details.
