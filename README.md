@@ -2,7 +2,8 @@
 
 [English](#english) | [中文](#中文)
 
-### English {#english}
+### English
+
 
 #### Abstract
 Pathological diagnosis assists in saving human lives, but such models are annotation hungry and pathological images are notably expensive to annotate. Contrastive learning could be a promising solution that relies only on unlabeled training data to generate informative representations. However, current contrastive learning methods often suffer from (1) easy positives from random augmentation and (2) false negative pairs caused by negative sampling bias. We propose Cluster-Aware Adversarial Contrastive Learning (CA^2CL) to address these issues. A mixed data augmentation strategy produces more discriminative pairs to learn transferable representations. A cluster-aware loss detects similarities between instances and uses them during contrastive learning to reduce false negatives. Adversarial learning further generates challenging pairs and enforces robust representations by maximizing similarity between augmented samples and related adversarial samples without labeled data. Evaluations on NCT-CRC-HE and PCam for fine-tuning/linear tasks and on GlaS and CRAG for detection/segmentation demonstrate superior performance over SSL baselines and ImageNet pretraining, especially with limited data.
@@ -145,7 +146,8 @@ If you find our work and this repository helpful in your research, we would appr
 
 ---
 
-### 中文 {#中文}
+### 中文
+
 
 #### 摘要
 病理诊断有助于挽救人类生命，但这类模型极度依赖标注数据，而病理图像的标注成本尤为高昂。对比学习作为一种有前景的解决方案，仅需利用未标注的训练数据即可生成信息丰富的表征。然而，现有的对比学习方法往往存在两大缺陷：（1）随机数据增强产生的简单正样本对；（2）负采样偏差导致的虚假负样本对。针对这些问题，我们提出聚类感知对抗对比学习方法。该方法采用混合数据增强策略生成更具判别性的样本对，从而学习可迁移的表征；通过聚类感知损失函数检测样本间的相似性，并在对比学习过程中利用这些信息减少虚假负样本对；同时引入对抗学习机制，在无标注数据条件下生成具有挑战性的样本对，并通过最大化增强样本与相关对抗样本间的相似性来强化表征的鲁棒性。在NCT-CRC-HE与PCam数据集上的微调/线性任务评估，以及在GlaS与CRAG数据集上的检测/分割任务评估表明，该方法在有限数据条件下显著优于自监督学习基线模型与ImageNet预训练模型，展现出卓越的性能。
